@@ -2,7 +2,7 @@ name: Weekly Poll
 
 on:
   schedule:
-    - cron: '30 9 * * 2'
+    - cron: '0 2 13 ? * TUE *'
   workflow_dispatch:
 
 jobs:
