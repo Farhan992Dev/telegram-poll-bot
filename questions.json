@@ -3,7 +3,7 @@
     "id": 1,
     "text": "نظرتون درباره تاریخ و ساعت برگزاری دورهمی این هفته چیه؟",
     "options": ["چهارشنبه ۸ شب", "پنج‌شنبه ۱۲ ظهر", "جمعه ۱۲ ظهر"],
-    "multiple_choice": false,
+    "multiple_choice": true,
     "anonymous": false
   }
 ]
