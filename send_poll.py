@@ -5,6 +5,7 @@ import random
 from datetime import datetime
 
 from aiogram import Bot
+from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 
 
@@ -26,7 +27,7 @@ async def send_poll():
 
     question = get_random_question()
 
-    bot = Bot(token=bot_token, parse_mode=ParseMode.HTML)
+    bot = Bot(token=bot_token, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
     try:
         await bot.send_poll(
             chat_id=int(chat_id),
